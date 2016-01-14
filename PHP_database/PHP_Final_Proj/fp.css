@@ -1,0 +1,17 @@
+body{
+	background-image:url("fp_images/grumpy_no.jpeg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #101010;
+	color: #FFF;
+}
+table, td, th{
+border: 1px solid white;
+text-align: left;
+}
+th{
+border: 1px solid white;
+text-align:center;
+}
+

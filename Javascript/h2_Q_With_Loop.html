@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Add With Loops</title>
+</head>
+<body>
+<script type="text/javascript">
+//declare variables
+var rightAnswer=5;
+var userAnswer=0;
+
+//loop to keep asking user for answer if they guess incorrectly
+while(userAnswer != rightAnswer){
+	userAnswer=eval(prompt("What is 2+3?"));
+
+//message if user answers wrong
+	if(userAnswer != rightAnswer){
+		alert("Wrong answer! Try again!");
+	}
+}
+
+//message when they get the answer correct
+alert("Congratulations! You got the right answer!");
+window.history.back();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Number Guesser For Loop</title>
+		<script type="text/javascript">
+		//declaring variables
+		var guess=50;
+		var target=0;
+		var turns=0;
+		var msg="";
+		var end=0;
+
+		//creating random number
+		target=Math.floor(Math.random()*100)+1;
+
+		//creating loop to allow user to play again
+		while(end!=1){
+		msg="I'm thinking of a number between 1 and 100. \n";
+		msg+="Guess my number, and I'll tellyou if it's too high, \n";
+		msg+="too low, or correct. Try to guess in the fewest turns.\n";
+		msg+="You will get 5 guesses.";
+		alert(msg);
+
+		guess=eval(prompt("What is your guess?"));
+		
+		//loop to let user make guesses
+		for(turns=1; turns<6; ++turns){
+			if(guess>target){
+				guess=eval(prompt(turns+ ". Too high!! Next guess?"));
+			}
+			if(guess<target){
+				guess=eval(prompt(turns+ ". Too low!! Next guess?"));
+			}
+			if(guess==target){
+				msg="YOU WIN!!! \n";
+				msg+="It took you ";
+				msg+=turns+ " turns! ";
+				alert(msg);
+			}
+			
+		}
+		end=eval(prompt("Sorry you ran out of guesses. Press 0 to play again or 1 to quit."));
+		if(end==0){
+			target=Math.floor(Math.random()*100)+1;
+			guess=50;
+			turns=0;
+		}
+		
+		}
+		
+		
+		window.history.back();
+
+		</script>
+
+</head>
+</html>

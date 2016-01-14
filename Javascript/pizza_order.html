@@ -1,0 +1,85 @@
+<html>
+<head><title>Pizza Order</title>
+<script type="text/javascript" src="Natalie_functions2.js">
+</script>
+</head>
+<body>
+<input type=button
+value="Home"
+onClick=goHome();>
+<center>
+	<h1>Pizza Order<hr></h1>
+</center>
+	<form name="orderForm">
+		<center>
+		<table border="1px solid black">
+			<tr>
+				<td><div>
+					<h3>Enter Your Information<hr></h3>
+					<label for="name_label"><strong>Name:</strong></label>
+					<input type="text" name="name_text" size="30"><br/>
+					<label for="address_label"><strong>Address:</strong></label>
+					<textarea name="address_text" cols="25" rows="2"></textarea><br/>
+					<label for="city_label"><strong>City:</strong></label>
+					<input type="text" name="city_text" size="30"><br/>
+					<label for="phone_label"><strong>Phone Number:</strong></label>
+					<input type="text" name="phone_text"></div></td>
+					<td><div>
+						<h3>Select Your Size<hr></h3>
+
+						<input type="radio"
+						name="size_select"
+						value="Small"><strong> Small</strong><br/>
+						<input type="radio"
+						name="size_select"
+						value="Medium"><strong> Medium</strong><br/>
+						<input type="radio"
+						name="size_select"
+						value="Large"><strong> Large</strong><br/>
+						<input type="radio"
+						name="size_select"
+						value="Extra_Large"><strong> Extra Large</strong>	<br/>
+						<br/><br/></div></td>
+						<td><div>
+							<h3>Select Your Toppings<hr></h3>
+							<input type="checkbox"
+							name="chk_pepperoni"
+							value="Pepperoni"><strong> Pepperoni</strong><br/>
+							<input type="checkbox"
+							name="chk_sausage"
+							value="Sausage"><strong> Sausage</strong><br/>
+							<input type="checkbox"
+							name="chk_green_peps"
+							value="Green Peppers"><strong> Green Peppers</strong><br/>
+							<input type="checkbox"
+							name="chk_onions"
+							value="Onions"><strong> Onions</strong><br/>
+							<input type="checkbox"
+							name="chk_mushrooms"
+							value="Mushrooms"><strong> Mushrooms</strong><br/>
+							<input type="checkbox"
+							name="chk_hot_peps"
+							value="Hot Peppers"><strong> Hot Peppers</strong></div></td></tr></table>
+							<input type="button"
+							value="Submit Order"
+							onClick=pizzaOrderSubmit(document)>
+						</form>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<form name="orderConfirm">
+							<center>
+								<h3>Order Confirmation</h3>
+								<textarea cols="25" rows="10" name=order_text></textarea>
+						</center>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+
+
+
+			
+</body>
+</html>

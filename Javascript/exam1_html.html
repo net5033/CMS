@@ -1,0 +1,79 @@
+<html>
+<head><title>Exam 1</title>
+	<script type="text/javascript" src="Natalie_functions2.js">
+	</script>
+</head>
+<body>
+	<input type="button" name="home_button" value="Home" onClick=goHome();>
+	
+		<center>
+		<h1>Select Your Vehicle</h1>
+		<hr>
+	</center>
+		<form name="vehicle_form">
+			<center>
+<table border="1px solid black">
+	<tr>
+		<td><h3>Enter Your Address</h3><hr><br/>
+		<label name="name_lbl"><strong>Name:</strong></label>
+		<input type="text" name="name_txt"><br/>
+		<label name="street_lbl"><strong>Street:</strong></label>
+		<input type="text" name="street_txt"><br/>
+		<label name="city_lbl"><strong>City:</strong></label>
+		<input type="text" name="city_txt"><br/>
+		<label name="state_lbl"><strong>State:</strong></label>
+		<input type="text" name="state_txt"><br/>
+		<label name="zip_lbl"><strong>Zip:</strong></label>
+		<input type="text" name="zip_txt">
+	</td>
+</tr>
+<tr>
+	<td><h3>Select Your Make</h3><hr><br/>
+		<select id="make_select">
+			<option name="mazda" value="Mazda">Mazda</option>
+			<option name="jeep" value="Jeep">Jeep</option>
+			<option name="bmw" value="BMW">BMW</option>
+			<option name="mercedes" value="Mercedes">Mercedes</option>
+			<option name="nissan" value="Nissan">Nissan</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td><h3>Select Your Model</h3><hr><br/>
+		<input type="radio" name="model_sel" value="Coupe"><strong>Coupe ($15,000)<strong><br/>
+		<input type="radio" name="model_sel" value="Sedan"><strong>Sedan ($18,000)</strong><br/>
+		<input type="radio" name="model_sel" value="Convertable"><strong>Convertable ($20,000)</strong><br/>
+		<input type="radio" name="model_sel" value="SUV"><strong>SUV ($25,000)</strong>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Select Your Special Upgrades</h3><hr><br/>
+		<input type="checkbox" name="ac_chk" value="Air Conditioning"><strong>Air Conditioning ($1,000)</strong><br/>
+		<input type="checkbox" name="man_tran_chk" value="Manual Transmission"><strong>Manual Transmission (-$2,000)</strong><br/>
+		<input type="checkbox" name="sound_sys_chk" value="Upgraded Sound System"><strong>Upgraded Sound System ($5,000)</strong><br/>
+		<input type="checkbox" name="rally_chk" value="Rally Wheels"><strong>Rally Wheels ($7,000)</strong><br/>
+		<input type="checkbox" name="highpf_tires_chk" value="High Performance Tires"><strong>High Performance Tires (3,000)</strong><br/>
+		<input type="checkbox" name="extnd_war_chk" value="Extended Warranty"><strong>Extended Warranty ($10,000)</strong>
+	</td>
+</tr>
+<tr>
+<hr>
+<td>
+	<input type="button" name="sub_button" value="Submit Order" onClick=vehicleOrder(document)>
+</td></tr>
+<tr>
+	<td><h3>Order Confirmation</h3><hr><br/>
+		<textarea cols="25" rows="10" name=conf_order></textarea>
+	</td>
+</tr>
+</table>
+</center>
+</form>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+</html>

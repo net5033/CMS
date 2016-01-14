@@ -1,0 +1,116 @@
+<html>
+<head>
+<script type="text/javascript" src="Natalie_functions2.js">
+</script>
+</head>
+<body>
+	<input type=button
+	value="Home";
+	onClick=goHome();>
+	<center>
+		<h1>Mad Lib<hr></h1>
+		<form name= myForm>
+			<h3>Please enter the following information</h3>
+			<table border=1>
+				<tr>
+					<td>A person's name</td>
+					<td><input type=text name=txtPerson></td>
+				</tr>
+				<tr>
+					<td>description(s)</td>
+					<td>
+						<input type="checkbox"
+						name="chkEvil"
+						value="evil">evil
+						<input type="checkbox"
+						name="chkGoofy"
+						value="goofy">goofy
+						<input type="checkbox"
+						name="chkDysfunc"
+						value="dysfunctional">dysfunctional
+						<input type="checkbox"
+						name="chkWacky"
+						value="wacky">wacky
+					</td>
+				</tr>
+				<tr>
+					<td>A silly sound</td>
+					<td>
+						<input type="radio"
+						name="optSound"
+						value="phht!">phht!
+						<input type="radio"
+						name="optSound"
+						value="boing!">boing!
+						<input type="radio"
+						name="optSound"
+						value="whoosh!">whoosh!
+						<input type="radio"
+						name="optSound"
+						value="splat!">splat!
+					</td>
+				</tr>
+				<tr>
+					<td>A body part</td>
+					<td>
+						<select name=selBody>
+							<option value="tooth">tooth</option>
+							<option value="kidney stone">kidney stone</option>
+							<option value="cheek">cheek</option>
+							<option value="elbow">elbow</option>
+							<option value="brain">brain</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>A vehicle</td>
+					<td><input type=text name=txtVehicle></td>
+				</tr>
+				<tr>
+					<td>A type of animal</td>
+					<td><input type= text name=txtAnimal></td>
+				</tr>
+				<tr>
+					<td colspan=2><center>
+						<input type=button
+						value="click for story"
+						onClick=makeML(myForm)>
+					</td>
+				</tr>
+			</table>
+			<textarea name=txtStory
+			rows=10
+			cols=40
+			wrap>
+		</textarea>
+	</form>
+</center>
+<hr>
+<br/>
+<br/>
+<br/>
+<center>
+	<h1>Add Numbers</h1>
+	<form name=form2>
+		<h3>Enter a number in each text box</h3>
+		<table border=1>
+			<tr>
+				<td>First Number</td>
+				<td><input type=text name=txtFirstNum></td>
+				<td>Second Number</td>
+				<td><input type=text name=txtSecNum></td>
+			</tr>
+			</table>
+				<center>
+					<input type=button
+					value="Click To Add!"
+					onClick=addNums(form2)>
+				</center>
+				
+				</center>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+</body>
+</html>

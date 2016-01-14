@@ -1,0 +1,92 @@
+/***************************************
+   Default Styles
+************************************** */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 62.5% Verdana, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+#container {
+  font-size: 1.2em;
+  margin: 10px 2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+a {
+  color: #06581f;
+}
+
+
+/***************************************
+   Chapter Styles
+************************************** */
+
+.poem {
+  margin: 0 2em;
+}
+
+.highlight {
+  background-color: #ccc;
+  border: 1px solid #888;
+  font-style: italic;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
+}
+
+/* My Styles */
+
+body.chng .chapter {
+  font-family: Helvetica;
+  color: blue;
+  font-weight: bold;
+}
+
+.wd {
+font-family: wingdings;
+}
+
+.aRed {
+  font-family: Arial;
+  font-size: 14pt;
+  color: red;
+}
+
+.hoverClass{
+  cursor: pointer;
+  background-color: #00d;
+}
+
+a.picLink{
+ background: url(pdf.png) no-repeat 100% 2px;
+  padding-right: 18px;
+}
+
+#switcher{
+width: 400px;
+padding: .5em;
+border: 1px solid #777;
+}

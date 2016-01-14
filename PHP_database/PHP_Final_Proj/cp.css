@@ -1,0 +1,25 @@
+html{
+	background: url(fp_images/new_bkg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+body{
+	color: #FFF;
+		
+}
+table, td, th{
+	border: 1px solid white;
+	background-color: #000000;
+}
+#wlcm_txt{
+	border: 1px solid white;
+}
+#view_coms{
+	float: right;
+	border:1px solid white;
+}
+#ctble{
+	float:left;
+}

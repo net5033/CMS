@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+  body {
+	background-image: url(images/newbackground.jpg);
+	color: #0FC;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	font-family: "Songti TC Regular";
+}
+  h1 {
+	font-family: "Songti TC Regular";
+	text-transform: none;
+	font-variant: normal;
+	font-weight: bolder;
+	font-style: normal;
+	color: #0FC;
+}
+h2 {
+	font-family: "Songti TC Regular";
+	color: #0FC;
+	text-align: center;
+}
+a {
+	font-family: "Songti TC Regular";
+	color: #0FF;
+	text-align: center;
+	font-size: 18px;
+}
